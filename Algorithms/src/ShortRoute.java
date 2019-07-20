@@ -17,12 +17,12 @@ public class ShortRoute {
     private List<Integer> listResult = new ArrayList();
 
 
-    private final int[][] matrix = {{0, 3, 0, 0, 4, 0},
-            {3, 0, 2, 4, 0, 2},
-            {0, 2, 0, 0, 3, 2},
-            {0, 4, 0, 0, 1, 0},
-            {4, 0, 3, 1, 0, 0},
-            {0, 2, 4, 0, 0, 0}};
+    private final int[][] matrix = {    {0, 3, 0, 0, 4, 0},
+                                        {3, 0, 2, 4, 0, 2},
+                                        {0, 2, 0, 0, 3, 2},
+                                        {0, 4, 0, 0, 1, 0},
+                                        {4, 0, 3, 1, 0, 0},
+                                        {0, 2, 4, 0, 0, 0}};
 
 
     public ShortRoute() {
